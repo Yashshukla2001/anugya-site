@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anugya Hotel & Boutique — Indore</title>
+    <meta
+      name="description"
+      content="A boutique stay in Indore: considered rooms, warm service, and an easy walk to the city's business and shopping districts."
+    />
+    <style>
+      @media (prefers-reduced-motion: no-preference) {
+        #app-loader .app-loader-cue {
+          animation: app-loader-pulse 1.6s ease-in-out infinite;
+        }
+      }
+      @keyframes app-loader-pulse {
+        0%, 100% { opacity: 0.25; }
+        50% { opacity: 0.8; }
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="app-loader"
+      style="position:fixed;inset:0;z-index:9999;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;background:#F1EDE3;transition:opacity 0.4s ease;"
+    >
+      <img src="/assets/logo.png" alt="Anugya" style="height:96px;width:auto;" />
+      <span class="app-loader-cue" style="width:32px;height:1px;background:#C9A961;"></span>
+    </div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

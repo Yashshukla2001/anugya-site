@@ -1,0 +1,73 @@
+@import "@fontsource/fraunces/400.css";
+@import "@fontsource/fraunces/500.css";
+@import "@fontsource/fraunces/500-italic.css";
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: auto; /* Lenis takes over scroll; native smooth-scroll would fight it */
+}
+
+body {
+  @apply bg-stone-100 text-charcoal-900 font-sans antialiased;
+  font-feature-settings: "liga" 1, "kern" 1;
+}
+
+::selection {
+  @apply bg-gold-500/30 text-charcoal-900;
+}
+
+.input {
+  @apply w-full rounded-sm border border-charcoal-900/15 bg-stone-50 px-4 py-2.5 text-sm text-charcoal-900 outline-none transition-colors;
+}
+.input:focus {
+  @apply border-gold-500;
+}
+
+/* Visible keyboard focus everywhere — brief §40 accessibility */
+:focus-visible {
+  outline: 2px solid theme("colors.gold.500");
+  outline-offset: 3px;
+}
+
+/* Respect prefers-reduced-motion globally. Components should also check
+   this via src/hooks/useReducedMotion.ts before wiring GSAP/Lenis. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Lenis required class */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* Review carousel: fades the peeking edge cards toward the container
+   edges instead of cropping them hard. GoogleReviewsSection.tsx only. */
+.reviews-edge-fade {
+  -webkit-mask-image: linear-gradient(to right, transparent 0, black 64px, black calc(100% - 64px), transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0, black 64px, black calc(100% - 64px), transparent 100%);
+}
