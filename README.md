@@ -738,7 +738,7 @@ code:
 - Confirmation of which numbered photo belongs to which room (see
   `reference-photos/` and the note in `src/data/rooms.ts`)
 - Hero + any supporting video footage
-- The real domain, to replace the `anugyahotel.example` placeholder in
+- The real domain, to replace the `Anugyahotel.example` placeholder in
   `useSeo.ts`, `robots.txt`, and `sitemap.xml`
 - A vector copy of the logo, if one exists — a lotus mark is visible on
   the welcome-kit photo (`deluxe/02.jpg`) but isn't usable at that

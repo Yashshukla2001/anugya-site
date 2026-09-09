@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.anugyahotel.example/sitemap.xml
+Sitemap: https://www.Anugyahotel.example/sitemap.xml

@@ -27,7 +27,7 @@ export const siteConfig = {
   contact: {
     phone: "+91 91111 99307",
     whatsapp: "919111199307", // digits only, country code first, no "+" (wa.me format)
-    // email: "stay@anugyahotel.example", // PLACEHOLDER — no email supplied yet
+    // email: "stay@Anugyahotel.example", // PLACEHOLDER — no email supplied yet
     address: "Anugya - A Boutique Hotel, Ratna Lok Colony Rd, Ratna Lok Colony, Indore, Madhya Pradesh 452011",
   },
 
@@ -37,8 +37,8 @@ export const siteConfig = {
   },
 
   social: {
-    instagramHandle: "@anugyaaboutiquehotel1",
-    instagramUrl: "https://www.instagram.com/anugyaaboutiquehotel1",
+    instagramHandle: "@Anugyaaboutiquehotel1",
+    instagramUrl: "https://www.instagram.com/Anugyaaboutiquehotel1",
     googleMapsUrl: "https://share.google/dhduDALTFeabCqnMg",
     googleReviewsUrl: "https://www.google.com/maps/place/Anugya+-+A+Boutique+Hotel/@22.748824,75.8965865,17z/data=!4m11!3m10!1s0x3962fd5537635809:0x354013a9fb9e5c86!5m2!4m1!1i2!8m2!3d22.7488191!4d75.8991668!9m1!1b1!16s%2Fg%2F11yfzgmspk?hl=en-US&entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D", // PLACEHOLDER
   },

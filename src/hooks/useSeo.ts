@@ -8,7 +8,7 @@ interface SeoOptions {
   image?: string;
 }
 
-const SITE_URL_PLACEHOLDER = "https://www.anugyahotel.example"; // PLACEHOLDER — replace once the real domain is live
+const SITE_URL_PLACEHOLDER = "https://www.Anugyahotel.example"; // PLACEHOLDER — replace once the real domain is live
 
 function setMeta(attr: "name" | "property", key: string, content: string) {
   let el = document.head.querySelector<HTMLMetaElement>(`meta[${attr}="${key}"]`);
