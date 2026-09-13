@@ -23,7 +23,7 @@ gsap.registerPlugin(ScrollTrigger);
  * directly to scroll position, not timed, and both still skip entirely
  * under prefers-reduced-motion.
  *
- * "Hotel & Boutique" subtitle: was a single static line. Now flanked by
+ * "A Boutique Hotel" subtitle: was a single static line. Now flanked by
  * two thin drawn-in rules and given its own slow continuous
  * letter-spacing breathe (same technique as the "Anugya" title's, offset
  * so they're not moving in lockstep) — reads as considered rather than
@@ -233,7 +233,7 @@ export function Hero() {
         </h1>
         <p ref={subtitleRef} className="mt-3 flex items-center justify-center gap-3 text-base tracking-wide3 text-gold-300/90">
           <span ref={subtitleLineLeftRef} className="h-px w-6 origin-right bg-gold-400/70" aria-hidden="true" />
-          Hotel & Boutique
+          A Boutique Hotel
           <span ref={subtitleLineRightRef} className="h-px w-6 origin-left bg-gold-400/70" aria-hidden="true" />
         </p>
         <p ref={taglineRef} className="mx-auto mt-7 max-w-md font-display text-lg italic text-stone-200">

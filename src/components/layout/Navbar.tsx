@@ -89,7 +89,7 @@ export function Navbar() {
                   solid ? "text-gold-600" : "text-gold-300",
                 ].join(" ")}
               >
-                Hotel & Boutique
+                A Boutique Hotel 
               </span>
             </span>
           </Link>

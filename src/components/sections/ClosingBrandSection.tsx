@@ -129,7 +129,7 @@ export function ClosingBrandSection() {
           Anugya
         </h2>
         <p ref={subtitleRef} className="mt-1 text-sm tracking-wide3 text-gold-300/90">
-          Hotel & Boutique
+          A Boutique Hotel
         </p>
         <p ref={taglineRef} className="mx-auto mt-6 max-w-md text-stone-300">
           Quiet, considered hospitality — book your stay in a few taps.
