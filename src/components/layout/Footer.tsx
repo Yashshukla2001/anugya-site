@@ -11,7 +11,7 @@ export function Footer() {
       <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[1.5fr_1fr_1fr]">
         <div>
           <img src="/assets/logo-mark.png" alt="Anugya" className="h-12 w-auto rounded bg-stone-50/95 p-1.5" />
-          <p className="mt-4 font-display text-2xl">Anugya Hotel & Boutique</p>
+          <p className="mt-4 font-display text-2xl">Anugya A Boutique Hotel</p>
           <p className="mt-1 text-sm tracking-wide2 text-stone-300">{siteConfig.location}</p>
           <p className="mt-6 max-w-xs text-sm leading-relaxed text-stone-300">{siteConfig.tagline}</p>
           <p className="mt-6 max-w-xs text-xs leading-relaxed text-stone-400">
@@ -46,7 +46,7 @@ export function Footer() {
       </div>
 
       <div className="mx-auto mt-16 flex max-w-7xl flex-col items-start justify-between gap-4 border-t border-stone-100/10 pt-6 text-xs text-stone-400 lg:flex-row lg:items-center">
-        <p>© {year} Anugya Hotel & Boutique. All rights reserved.</p>
+        <p>© {year} Anugya A Boutique Hotel. All rights reserved.</p>
         <p>Built by Exsora - under India's Business Digitization Mission</p>
       </div>
     </footer>

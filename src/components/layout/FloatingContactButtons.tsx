@@ -20,7 +20,7 @@ export function FloatingContactButtons() {
     <div className="fixed bottom-6 right-6 z-30 flex flex-col gap-3 lg:bottom-8 lg:right-8">
       <a
         href={telHref}
-        aria-label="Call Anugya Hotel & Boutique"
+        aria-label="Call Anugya A Boutique Hotel"
         className="flex h-14 w-14 items-center justify-center rounded-full bg-charcoal-900 text-stone-50 shadow-lg transition-transform duration-300 ease-cinematic hover:scale-105"
       >
         <Phone size={22} aria-hidden="true" />

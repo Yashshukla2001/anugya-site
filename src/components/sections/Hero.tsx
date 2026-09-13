@@ -185,7 +185,7 @@ export function Hero() {
           <img
             key={src}
             src={src}
-            alt={i === 0 ? "A suite at Anugya Hotel & Boutique, Indore" : ""}
+            alt={i === 0 ? "A suite at Anugya A Boutique Hotel, Indore" : ""}
             fetchPriority={i === 0 ? "high" : undefined}
             loading={i === 0 ? undefined : "eager"}
             className="absolute inset-0 h-full w-full object-cover"

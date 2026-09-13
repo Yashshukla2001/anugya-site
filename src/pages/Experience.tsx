@@ -55,7 +55,7 @@ const beats = [
 export function Experience() {
   useSeo({
     title: "The Experience",
-    description: "What staying at Anugya Hotel & Boutique in Indore feels like, from arrival to check-out.",
+    description: "What staying at Anugya A Boutique Hotel in Indore feels like, from arrival to check-out.",
     path: "/experience",
   });
 

@@ -17,7 +17,7 @@ import { glowButton } from "@/lib/buttonStyles";
 export function Contact() {
   useSeo({
     title: "Contact",
-    description: "Get in touch with Anugya Hotel & Boutique, Indore — phone, WhatsApp, email, and directions.",
+    description: "Get in touch with Anugya A Boutique Hotel, Indore — phone, WhatsApp, email, and directions.",
     path: "/contact",
   });
 

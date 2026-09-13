@@ -41,7 +41,7 @@ export function InstagramSection() {
               </span>
               <div className="min-w-0 flex-1">
                 <p className="truncate text-xs font-medium text-charcoal-900">{siteConfig.social.instagramHandle}</p>
-                <p className="truncate text-[10px] text-charcoal-700/60">Anugya Hotel & Boutique</p>
+                <p className="truncate text-[10px] text-charcoal-700/60">Anugya A Boutique Hotel</p>
               </div>
               <span className="shrink-0 rounded-full bg-charcoal-900 px-3 py-1 text-[10px] text-stone-50">Follow</span>
             </div>

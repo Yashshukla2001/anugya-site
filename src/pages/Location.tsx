@@ -24,7 +24,7 @@ import { contactFormWhatsAppLink } from "@/lib/whatsapp";
 export function Location() {
   useSeo({
     title: "Location",
-    description: "Find Anugya Hotel & Boutique in Indore, Madhya Pradesh — directions, map, and city context.",
+    description: "Find Anugya A Boutique Hotel in Indore, Madhya Pradesh — directions, map, and city context.",
     path: "/location",
   });
 
@@ -50,7 +50,7 @@ export function Location() {
         <div className="mt-10 grid gap-8 lg:grid-cols-2">
           <Reveal className="overflow-hidden rounded-lg border border-white/40 shadow-glass">
             <iframe
-              title="Anugya Hotel & Boutique location"
+              title="Anugya A Boutique Hotel location"
               src={mapSrc}
               className="h-80 w-full border-0 lg:h-full lg:min-h-[420px]"
               loading="lazy"
@@ -109,7 +109,7 @@ export function Location() {
           <Reveal y={32} delay={0.1} className="aspect-[4/3] overflow-hidden rounded-md">
             <img
               src="/assets/rooms/executive-suite/02.jpg"
-              alt="A room at Anugya Hotel & Boutique"
+              alt="A room at Anugya A Boutique Hotel"
               loading="lazy"
               className="h-full w-full object-cover"
             />

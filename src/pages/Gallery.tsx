@@ -15,7 +15,7 @@ const categories = [
 export function Gallery() {
   useSeo({
     title: "Gallery",
-    description: "Real photography from Anugya Hotel & Boutique, Indore — rooms, suites, and interiors.",
+    description: "Real photography from Anugya A Boutique Hotel, Indore — rooms, suites, and interiors.",
     path: "/gallery",
   });
 

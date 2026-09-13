@@ -1,5 +1,5 @@
 /**
- * Central configuration for Anugya Hotel & Boutique.
+ * Central configuration for Anugya A Boutique Hotel.
  *
  * IMPORTANT — READ BEFORE LAUNCH
  * --------------------------------
@@ -20,7 +20,7 @@
 export const isPlaceholderData = true; // flip to false once email + reviews + check-in/out are in
 
 export const siteConfig = {
-  hotelName: "Anugya Hotel & Boutique",
+  hotelName: "Anugya A Boutique Hotel",
   location: "Indore",
   tagline: "Quiet, considered hospitality in the heart of Indore.",
 
@@ -44,7 +44,7 @@ export const siteConfig = {
   },
 
   seo: {
-    defaultTitle: "Anugya Hotel & Boutique — Indore",
+    defaultTitle: "Anugya A Boutique Hotel — Indore",
     defaultDescription:
       "A boutique stay in Indore: considered rooms, warm service, and an easy walk to the city's business and shopping districts.",
   },

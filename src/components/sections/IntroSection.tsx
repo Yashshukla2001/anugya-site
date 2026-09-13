@@ -58,7 +58,7 @@ export function IntroSection() {
         <div ref={imgRef} className="aspect-[4/5] overflow-hidden rounded-md shadow-glass lg:aspect-[3/4]">
           <img
             src="/assets/rooms/presidential-suite/01.jpg"
-            alt="A room at Anugya Hotel & Boutique"
+            alt="A room at Anugya A Boutique Hotel"
             loading="lazy"
             className="h-full w-full object-cover"
           />

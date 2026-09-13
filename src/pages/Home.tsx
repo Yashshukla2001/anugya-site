@@ -16,7 +16,7 @@ export function Home() {
   useSeo({
     title: "Boutique Hotel in Indore",
     description:
-      "Anugya Hotel & Boutique — a considered stay in Indore with six room types, real photography, and easy WhatsApp booking.",
+      "Anugya A Boutique Hotel — a considered stay in Indore with six room types, real photography, and easy WhatsApp booking.",
     path: "/",
   });
 

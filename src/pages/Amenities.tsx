@@ -50,7 +50,7 @@ const heroStrip = [
 export function Amenities() {
   useSeo({
     title: "Amenities",
-    description: `${totalAmenityCount} amenities at Anugya Hotel & Boutique, Indore — guest services, room comfort, dining, wellness, and more.`,
+    description: `${totalAmenityCount} amenities at Anugya A Boutique Hotel, Indore — guest services, room comfort, dining, wellness, and more.`,
     path: "/amenities",
   });
 

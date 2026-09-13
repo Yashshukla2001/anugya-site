@@ -1,4 +1,4 @@
-# Anugya Hotel & Boutique — Indore
+# Anugya A Boutique Hotel — Indore
 
 Built for Anugya by Exsora. **All 8 phases of the build plan are complete.**
 The site is functionally and visually finished: full cinematic homepage,

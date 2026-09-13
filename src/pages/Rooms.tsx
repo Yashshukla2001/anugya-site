@@ -6,7 +6,7 @@ import { useSeo } from "@/hooks/useSeo";
 export function Rooms() {
   useSeo({
     title: "Rooms",
-    description: "Six room types at Anugya Hotel & Boutique, Indore — Deluxe, Executive, Premium, Family Suite, Presidential Suite, and Executive Suite.",
+    description: "Six room types at Anugya A Boutique Hotel, Indore — Deluxe, Executive, Premium, Family Suite, Presidential Suite, and Executive Suite.",
     path: "/rooms",
   });
 

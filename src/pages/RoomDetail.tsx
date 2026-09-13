@@ -57,7 +57,7 @@ export function RoomDetail() {
         <img src={room.images[0]} alt={room.name} fetchPriority="high" className="absolute inset-0 h-full w-full object-cover opacity-90" />
         <div className="absolute inset-0 bg-gradient-to-t from-charcoal-900/85 via-transparent to-transparent" />
         <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pb-14 lg:px-10">
-          <p className="text-sm tracking-wide2 text-stone-200">Anugya Hotel & Boutique</p>
+          <p className="text-sm tracking-wide2 text-stone-200">Anugya A Boutique Hotel</p>
           <h1 className="mt-3 font-display text-display-lg text-stone-50">{room.name}</h1>
           <p className="mt-2 text-lg text-stone-200">{room.priceDisplay} / night</p>
           <a
